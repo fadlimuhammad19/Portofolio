@@ -6,6 +6,7 @@
 
   --animate-float: float 6s ease-in-out infinite;
   --animate-blink: blink 1s step-end infinite;
+  --animate-marquee: marquee 30s linear infinite;
 
   @keyframes float {
     0%, 100% { transform: translateY(0); }
@@ -13,6 +14,10 @@
   }
   @keyframes blink {
     50% { opacity: 0; }
+  }
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
   }
 }
 
@@ -33,12 +38,6 @@ body {
   color: #020617;
 }
 
---animate-marquee: marquee 30s linear infinite;
-
-@keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
-}
 ::-webkit-scrollbar { width: 10px; }
 ::-webkit-scrollbar-track { background: #020617; }
 ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 9999px; }
