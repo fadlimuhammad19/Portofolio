@@ -6,46 +6,47 @@ export const journey: Milestone[] = [
     id: 1,
     category: 'pengalaman',
     period: '2025 – Sekarang',
-    title: 'Developer Proyek Mandiri',
+    title: 'Proyek Mandiri',
+    position: 'Developer',
     place: 'Web & IoT',
     description: 'Mengerjakan sistem informasi, asisten AI, dan alat berbasis sensor.',
   },
   {
     id: 2,
     category: 'pengalaman',
-    period: '2023 – Sekarang',
-    title: 'Pemilik Toko Listrik',
-    place: 'Yoto Electrical Store',
-    description: 'Mengelola toko perlengkapan listrik dan membangun situs e-commerce sederhana dengan Vue.js.',
-  },
-
-  {
-    category: 'pengalaman',
     period: 'September 2024 – Agustus 2025',
     title: 'PT Yamaha Indonesia Motor Manufacturing',
     position: 'Body Assy',
     place: 'Jakarta, Indonesia',
-    description: [
-      '-Menyiapkan dan Memasang Komponen Pada Sepeda Motor type BLS.',
-      '-Mengikuti Alur Konveyor (Conveyor).',
-      '-Melakukan Pengecekan Kualitas Mandiri (Quality Control / Build-in Process)).',
-      '-Menjaga Keselamatan dan Kebersihan Kerja (K3).',
-  
-    ]
+    details: [
+      'Menyiapkan dan memasang komponen pada sepeda motor tipe BLS.',
+      'Mengikuti alur konveyor (conveyor) produksi.',
+      'Melakukan pengecekan kualitas mandiri (Quality Control / Build-in Process).',
+      'Menjaga keselamatan dan kebersihan kerja (K3).',
+    ],
   },
   {
+    id: 3,
     category: 'pengalaman',
-    period: 'Agustus 2022 – Ocrober 2022',
+    period: '2023 – Sekarang',
+    title: 'Yoto Electrical Store',
+    position: 'Pemilik',
+    place: 'Toko Perlengkapan Listrik',
+    description: 'Mengelola toko perlengkapan listrik dan membangun situs e-commerce sederhana dengan Vue.js.',
+  },
+  {
+    id: 4,
+    category: 'pengalaman',
+    period: 'Agustus 2022 – Oktober 2022',
     title: 'PT Barata Indonesia',
-    position: 'PKL',
+    position: 'PKL (Praktik Kerja Lapangan)',
     place: 'Tegal, Jawa Tengah, Indonesia',
     description: 'Mengerjakan proyek pengembangan software untuk sistem manajemen produksi.',
-                  
   },
 
   // ===== PENDIDIKAN =====
   {
-    id: 3,
+    id: 5,
     category: 'pendidikan',
     period: '2025 – Sekarang',
     title: 'D3 Teknik Komputer',
@@ -53,7 +54,7 @@ export const journey: Milestone[] = [
     description: 'Mempelajari pemrograman, jaringan, dan sistem tertanam.',
   },
   {
-    id: 5,
+    id: 6,
     category: 'pendidikan',
     period: '2020 – 2023',
     title: 'SMK Jurusan Multimedia',
@@ -63,11 +64,12 @@ export const journey: Milestone[] = [
 
   // ===== ORGANISASI =====
   {
-    id: 4,
+    id: 7,
     category: 'organisasi',
     period: '2026 – Sekarang',
-    title: 'Wakil Kepala Bidang Komisi IV',
-    place: 'Dewan Perwakilan Mahasiswa, Universitas Harkat Negeri',
+    title: 'Dewan Perwakilan Mahasiswa',
+    position: 'Wakil Kepala Bidang Komisi IV',
+    place: 'Universitas Harkat Negeri',
     details: [
       'Mendampingi Kabid Komisi IV dalam merencanakan, mengarahkan, dan mengawasi program kerja komisi.',
       'Mengoordinasikan anggota agar program berjalan sesuai lini masa yang ditetapkan.',
